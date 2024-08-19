@@ -23,4 +23,3 @@ print(f"Arquivo {nome_arquivo_txt} foi convertido para {nome_arquivo_xlsx} na pa
 """ # Salvar os dados no arquivo .xls na mesma pasta
 dados.to_excel(caminho_arquivo_xlsx, index=False, header=False, engine='xlwt') """
 
-print(f"Arquivo {nome_arquivo_txt} foi convertido para {nome_arquivo_xlsx} na pasta {diretorio_atual}.")
